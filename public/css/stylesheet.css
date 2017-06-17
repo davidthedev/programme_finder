@@ -1,0 +1,161 @@
+/* -----------------------------------*/
+/* ---------->>> GLOBAL <<<-----------*/
+/* -----------------------------------*/
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #262525;
+}
+
+body {
+    font-family: Arial;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #fff;
+}
+
+figure {
+    margin: 0px;
+}
+
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+/* -----------------------------------*/
+/* ---------->>> HEADER <<<-----------*/
+/* -----------------------------------*/
+
+header {
+    background-color: #191919;
+    padding: 20px;
+}
+
+header img {
+    width: 10%;
+}
+
+/* -------------------------------------------*/
+/* ---------->>> PAGE STRUCTURE <<<-----------*/
+/* -------------------------------------------*/
+
+.container {
+    margin: 0 auto;
+    width: 920px;
+}
+
+.main-body {
+    margin-top: 20px;
+}
+
+[class*='col-'] {
+    float: left;
+}
+
+.col-1-3, .col-2-3, .col-3-3 {
+    width: 33.33%;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* -------------------------------------*/
+/* ---------->>> HEADINGS <<<-----------*/
+/* -------------------------------------*/
+
+.title h2 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+/* ----------------------------------------*/
+/* ---------->>> TEXT STYLES <<<-----------*/
+/* ----------------------------------------*/
+
+section > p {
+    color: #afafaf;
+}
+
+/* ---------------------------------*/
+/* ---------->>> FORM <<<-----------*/
+/* ---------------------------------*/
+
+input[name="search"] {
+    background-color: #767676;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #afafaf;
+}
+
+input[name="search"]:focus {
+    outline: #afafaf solid thin;
+}
+
+/* --------------------------------------------*/
+/* ---------->>> RESULTS SECTION <<<-----------*/
+/* --------------------------------------------*/
+
+.titles {
+    margin-top: 10px;
+}
+
+.title {
+    border-bottom: 1px solid #afafaf;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.title p {
+    color: #afafaf;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.image {
+    width: 40%;
+}
+
+.text {
+    width: 60%;
+}
+
+.image, .text {
+    float: left;
+
+}
+
+.text {
+    padding-left: 10px;
+}
